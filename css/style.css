@@ -1,0 +1,84 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.clarfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+element.style {
+    float: left;
+    width: 60%;
+}
+
+header {
+    padding: 2rem 0;
+}
+
+header h1{
+    margin-bottom: 3rem;
+}
+
+.text-center {
+    text-align: center;
+    
+}
+
+.card {
+    background-color: black;
+    width: calc(33.3% - (3rem / 3));
+    color: white;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card :nth-child(3n+0) {
+    margin-right: 0rem;
+}
+
+.card img {
+    width: 100%;
+    float: left;
+}
+
+.left-img {
+    width: 30%;
+    float: left;
+}
+
+.right-text {
+    background-color: black;
+    width: 70%;
+    color: white;
+    float: left;
+    height: 91px;
+    font-family: arial;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 40px;
+}
+
+h4 {
+    padding: 7px;
+}
+
+h5 {
+    padding: 7px;
+}
+
+p {
+    font-family: arial;
+}
